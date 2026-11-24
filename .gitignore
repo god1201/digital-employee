@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 环境变量与本地数据库
+.env
+.env.local
+*.db
+*.sqlite3
+
+# 测试与缓存
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 日志
+*.log
+
+# 前端
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+vite.log
+verify_server.log
+
+# AIGC 生成素材本地存储
+data/
+
+# 前端冒烟截图
+screenshots/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
